@@ -18,7 +18,7 @@ menu "MDF Mwifi"
 
         config MWIFI_BACKOFF_RSSI
             int "RSSI threshold for connecting to the root"
-            range -90 0
+            range -120 0
             default -78
             help
                 RSSI threshold below which connections to the root node are not allowed
