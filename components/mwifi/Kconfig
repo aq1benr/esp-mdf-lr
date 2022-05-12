@@ -170,17 +170,17 @@ menu "MDF Mwifi"
 
         config MWIFI_RSSI_THRESHOUD_HIGH
             int "high level of the rssi_threshoud for three level"
-            range -85 -55
+            range -120 -45
             default -78
 
         config MWIFI_RSSI_THRESHOUD_MEDIUM
             int "medium level of the rssi_threshoud for three level"
-            range -85 -55
+            range -120 -45
             default -82
 
         config MWIFI_RSSI_THRESHOUD_LOW
             int "low level of the rssi_threshoud for three level"
-            range -85 -55
+            range -120 -45
             default -85
 
     endmenu
